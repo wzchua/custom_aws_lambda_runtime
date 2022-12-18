@@ -18,8 +18,9 @@ public sealed class RuntimeApiClient
 
     public ValueTask InitAsync(CancellationToken cancellationToken)
     {
-        _ = RuntimeJsonSerializerContext.LambdaContext.LambdaErrorRequest;
-        _ = RuntimeJsonSerializerContext.LambdaContext.ErrorResponse;
+        _ = JsonSerializer.Serialize(null, RuntimeJsonSerializerContext.LambdaContext.LambdaErrorRequest!);
+        _ = JsonSerializer.Serialize("", RuntimeJsonSerializerContext.LambdaContext.String!);
+        _ = JsonSerializer.Serialize(null, RuntimeJsonSerializerContext.LambdaContext.ErrorResponse!);
 
         return new ValueTask();
     }

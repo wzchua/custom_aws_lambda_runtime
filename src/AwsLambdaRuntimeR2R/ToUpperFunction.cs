@@ -9,7 +9,8 @@ public readonly struct ToUpperFunction : ILambdaFunction<ToUpperFunction>
 {
     public static ValueTask<ToUpperFunction> CreateAsync(CancellationToken cancellationToken)
     {
-        _ = ToUpperJsonSerializerContext.Default.String;
+        _ = JsonSerializer.Serialize("", ToUpperJsonSerializerContext.Default.String!);
+        _ = JsonSerializer.Deserialize("\"\"", ToUpperJsonSerializerContext.Default.String!);
         return new ValueTask<ToUpperFunction>(new ToUpperFunction());
     }
 
