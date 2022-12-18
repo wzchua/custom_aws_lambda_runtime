@@ -20,4 +20,8 @@
       <ProjectReference Include="..\AwsLambdaRuntime\AwsLambdaRuntime.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Npgsql" Version="7.0.1" />
+    </ItemGroup>
+
 </Project>
