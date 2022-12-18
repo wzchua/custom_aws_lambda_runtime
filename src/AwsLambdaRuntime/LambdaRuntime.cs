@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace AwsLambdaRuntimeNative;
+namespace AwsLambdaRuntime;
 
 public sealed class LambdaRuntime<TLambdaFunction> where TLambdaFunction : ILambdaFunction<TLambdaFunction>
 {

@@ -3,7 +3,7 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 using AwsLambdaRuntime;
 
-namespace AwsLambdaRuntimeNative;
+namespace AwsLambdaRuntimeR2R;
 
 public readonly struct ToUpperFunction : ILambdaFunction<ToUpperFunction>
 {

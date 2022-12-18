@@ -3,7 +3,7 @@ using System.Net.Http.Headers;
 using System.Text.Json;
 using System.Text.Json.Serialization.Metadata;
 
-namespace AwsLambdaRuntimeNative;
+namespace AwsLambdaRuntime;
 
 public abstract class TypedJsonContent : HttpContent
 {

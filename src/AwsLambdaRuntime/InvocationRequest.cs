@@ -1,4 +1,4 @@
-﻿namespace AwsLambdaRuntimeNative;
+﻿namespace AwsLambdaRuntime;
 
 public sealed class InvocationRequest : IDisposable
 {

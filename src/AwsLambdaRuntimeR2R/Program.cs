@@ -1,6 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 using AwsLambdaRuntime;
-using AwsLambdaRuntimeNative;
+using AwsLambdaRuntimeR2R;
 
 using var cts = new CancellationTokenSource();
 

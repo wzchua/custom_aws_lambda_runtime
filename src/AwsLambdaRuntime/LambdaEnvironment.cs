@@ -1,4 +1,4 @@
-﻿namespace AwsLambdaRuntimeNative;
+﻿namespace AwsLambdaRuntime;
 
 public static class LambdaEnvironment
 {

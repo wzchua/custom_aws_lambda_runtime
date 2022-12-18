@@ -2,7 +2,7 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace AwsLambdaRuntimeNative;
+namespace AwsLambdaRuntime;
 
 [JsonSerializable(typeof(ErrorResponse))]
 [JsonSerializable(typeof(LambdaErrorRequest))]

@@ -16,4 +16,8 @@
         <MetadataUpdaterSupport>false</MetadataUpdaterSupport>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\AwsLambdaRuntime\AwsLambdaRuntime.csproj" />
+    </ItemGroup>
+
 </Project>

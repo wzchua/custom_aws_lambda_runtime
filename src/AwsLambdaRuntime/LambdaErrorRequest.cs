@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace AwsLambdaRuntimeNative;
+namespace AwsLambdaRuntime;
 
 public sealed class LambdaErrorRequest
 {

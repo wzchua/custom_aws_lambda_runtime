@@ -1,4 +1,4 @@
-﻿namespace AwsLambdaRuntimeNative;
+﻿namespace AwsLambdaRuntime;
 
 public interface ILambdaFunction<T> where T : ILambdaFunction<T>
 {

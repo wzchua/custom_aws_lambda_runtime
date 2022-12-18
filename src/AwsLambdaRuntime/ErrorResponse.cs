@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace AwsLambdaRuntimeNative;
+namespace AwsLambdaRuntime;
 
 internal sealed class ErrorResponse
 {
