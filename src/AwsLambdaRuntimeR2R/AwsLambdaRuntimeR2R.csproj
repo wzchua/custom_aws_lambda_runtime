@@ -8,6 +8,11 @@
         <PublishTrimmed>true</PublishTrimmed>
         <PublishReadyToRun>true</PublishReadyToRun>
         <PublishReadyToRunComposite>true</PublishReadyToRunComposite>
+        <InvariantGlobalization>true</InvariantGlobalization>
+        <HttpActivityPropagationSupport>false</HttpActivityPropagationSupport>
+        <EventSourceSupport>false</EventSourceSupport>
+        <DebuggerSupport>false</DebuggerSupport>
+        <MetadataUpdaterSupport>false</MetadataUpdaterSupport>
     </PropertyGroup>
 
     <ItemGroup>
