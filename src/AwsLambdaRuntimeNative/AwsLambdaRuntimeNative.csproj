@@ -15,6 +15,9 @@
         <DebuggerSupport>false</DebuggerSupport>
         <MetadataUpdaterSupport>false</MetadataUpdaterSupport>
     </PropertyGroup>
+    <ItemGroup>
+      <TrimmerRootAssembly Include="Serilog.Expressions" />
+    </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\AwsLambdaRuntime\AwsLambdaRuntime.csproj" />
